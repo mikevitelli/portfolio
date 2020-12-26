@@ -1,1 +1,1 @@
-# Mike Vitelli's Coding Porfolio
+# Mike Vitelli's Coding Portfolio
