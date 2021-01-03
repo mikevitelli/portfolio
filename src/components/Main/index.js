@@ -5,7 +5,10 @@ import RotatingText from "../Typical";
 
 const Main = () => {
   return (
-    <Container className="justfiy-content-center">
+    <Container className="fluid justfiy-content-center">
+      <Row>
+        <div style={{ height: 100 }}></div>
+      </Row>
       <Row>
         <Col
           xl={12}

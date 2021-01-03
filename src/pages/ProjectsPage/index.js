@@ -10,52 +10,38 @@ import ReactPageScroller from "react-page-scroller";
 const Projects = () => {
   return (
     <>
-      <ReactPageScroller>
-        <Container>
-          <Row>
-            <Col
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              className="
-  d-flex justify-content-center"
-            >
-              <AllSpeak />
-            </Col>
-          </Row>
-        </Container>
+      <Container className="my-auto">
+        <Row>
+          <div style={{ height: 500 }}></div>
+        </Row>
+        <Row>
+          <Col>
+            <AllSpeak />
+          </Col>
+        </Row>
+      </Container>
 
-        <Container>
-          <Row>
-            <Col
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              className="
-  d-flex justify-content-center"
-            >
-              <ChopCheese />
-            </Col>
-          </Row>
-        </Container>
+      <Container>
+        <Row>
+          <div style={{ height: 500 }}></div>
+        </Row>
+        {/* <Row>
+          <Col>
+          </Col>
+        </Row> */}
+        <ChopCheese />
+      </Container>
 
-        <Container>
-          <Row>
-            <Col
-              xl={12}
-              lg={12}
-              md={12}
-              sm={12}
-              className="
-  d-flex justify-content-center"
-            >
-              <RememberDat />
-            </Col>
-          </Row>
-        </Container>
-      </ReactPageScroller>
+      <Container>
+        <Row>
+          <div style={{ height: 500 }}></div>
+        </Row>
+        <Row>
+          <Col>
+            <RememberDat />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };
