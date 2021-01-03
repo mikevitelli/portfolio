@@ -7,9 +7,6 @@ const Main = () => {
   return (
     <Container className="fluid justfiy-content-center">
       <Row>
-        <div style={{ height: 100 }}></div>
-      </Row>
-      <Row>
         <Col
           xl={12}
           lg={12}

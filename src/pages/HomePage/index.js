@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <>
       {/* <Main className="mygh repo clone KendraNeves/portfolio-react-3 align-items-center" /> */}
-      <Projects className="my-auto" />
+      <Projects />
     </>
   );
 };
