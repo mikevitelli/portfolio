@@ -7,14 +7,13 @@ import { Switch, Route } from "react-router-dom";
 // import ChopCheese from "./components/Cards/ChopCheese";
 // import RememberDat from "./components/Cards/RememberDat";
 import HomePage from "../src/pages/HomePage";
-import ProjectsPage from "../src/pages/ProjectsPage";
+// import ProjectsPage from "../src/pages/ProjectsPage";
 
 function App() {
   return (
     <div className="App">
       <Switch>
         <Route path="/" component={HomePage} />
-        <Route path="/:projects" component={ProjectsPage} />
       </Switch>
     </div>
   );
