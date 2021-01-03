@@ -24,12 +24,7 @@ const RememberDat = () => {
               Molestiae. Accusamus vitae magnam maiores, voluptate sint animi
               nesciunt rem enim, consequuntur omnis eum a? Officiis nihil quis
               accusantium odio repellat assumenda nam illo beatae atque. Quam
-              incidunt doloribus laboriosam vero. Id consequuntur consequatur
-              aspernatur, eaque tenetur, modi quod, at eveniet ex distinctio
-              corrupti accusantium Officiis nihil quis accusantium odio repellat
-              assumenda nam illo beatae atque. Quam incidunt doloribus
-              laboriosam vero. Id consequuntur consequatur aspernatur, eaque
-              tenetur, modi quod, at eveniet ex distinctio corrupti accusantium
+              incidquod, at eveniet ex distinctio corrupti accusantium
             </p>
           </Col>
         </Row>

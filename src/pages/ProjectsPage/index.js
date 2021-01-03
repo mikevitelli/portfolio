@@ -4,42 +4,58 @@ import { Container, Row, Col } from "react-bootstrap";
 import AllSpeak from "../../components/Cards/AllSpeak";
 import ChopCheese from "../../components/Cards/ChopCheese";
 import RememberDat from "../../components/Cards/RememberDat";
-
+import Main from "../../components/Main";
 import ReactPageScroller from "react-page-scroller";
 
 const Projects = () => {
   return (
     <>
       <Container className="my-auto">
+        <Row className="align-items-center">
+          <Col>
+            <Main />
+          </Col>
+        </Row>
         <Row>
-          <div style={{ height: 500 }}></div>
+          <div style={{ height: 250 }}></div>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row className="align-items-center">
+          <div style={{ height: 250 }}></div>
         </Row>
         <Row>
           <Col>
             <AllSpeak />
           </Col>
         </Row>
-      </Container>
-
-      <Container>
         <Row>
-          <div style={{ height: 500 }}></div>
+          <div style={{ height: 250 }}></div>
         </Row>
-        {/* <Row>
-          <Col>
-          </Col>
-        </Row> */}
-        <ChopCheese />
       </Container>
 
       <Container>
         <Row>
-          <div style={{ height: 500 }}></div>
+          <div style={{ height: 250 }}></div>
+        </Row>
+        <ChopCheese />
+        <Row>
+          <div style={{ height: 250 }}></div>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row>
+          <div style={{ height: 250 }}></div>
         </Row>
         <Row>
           <Col>
             <RememberDat />
           </Col>
+        </Row>
+        <Row>
+          <div style={{ height: 250 }}></div>
         </Row>
       </Container>
     </>
