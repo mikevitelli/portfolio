@@ -11,19 +11,22 @@ const Projects = () => {
   return (
     <>
       <Container className="my-auto">
+        <Row>
+          <div style={{ height: 50 }}></div>
+        </Row>
         <Row className="align-items-center">
           <Col>
             <Main />
           </Col>
         </Row>
         <Row>
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
       </Container>
 
       <Container>
         <Row className="align-items-center">
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
         <Row>
           <Col>
@@ -31,23 +34,23 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
       </Container>
 
       <Container>
         <Row>
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
         <ChopCheese />
         <Row>
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
       </Container>
 
       <Container>
         <Row>
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
         <Row>
           <Col>
@@ -55,7 +58,7 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <div style={{ height: 250 }}></div>
+          <div style={{ height: 150 }}></div>
         </Row>
       </Container>
     </>
