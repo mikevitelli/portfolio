@@ -2,7 +2,6 @@ import React from "react";
 import Typical from "react-typical";
 
 const RotatingText = (props) => {
-  console.log(props);
   return (
     <Typical
       //   steps={["Hello", 1000, "Hello world!", 500]}
