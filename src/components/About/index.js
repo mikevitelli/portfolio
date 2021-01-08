@@ -28,6 +28,7 @@ const About = () => {
               <Col xs={12} sm={12} md={12} lg={6} xl={6}>
                 <Image
                   src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/94146782_4045071292177366_3401569022750228480_n.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=Esq0s0KsrCoAX9HRHUW&_nc_ht=scontent-lga3-2.xx&oh=9bc9f8b53456c7386acaafc45a3b8b2a&oe=5FFDDE83"
+                  alt="mike vitelli"
                   width={200}
                   height={200}
                   roundedCircle
