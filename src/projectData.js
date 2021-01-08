@@ -1,21 +1,9 @@
-// const ProjectCard = (props) => {
-//   const {
-//     projectPic,
-//     alt,
-//     cardTitle,
-//     description,
-//     techStack,
-//     githubUrl,
-//     deployedUrl,
-//     datePosted,
-//   } = props;
-
-export const projectData = [
+const projectData = [
   {
     title: "allSpeak",
     img:
       "https://github.com/kylegold/all-speak/raw/main/client/src/assets/logo/png/all_speak_v2_Logo_White.png",
-    alt: "allSpeak Logo",
+    altImg: "allSpeak Logo",
     deployedUrl:
       "https://github.com/kylegold/all-speak/deployments/activity_log?environment=immense-journey-22247",
     description:
@@ -28,27 +16,18 @@ export const projectData = [
     title: "chopCheese",
     img:
       "https://github.com/mikevitelli/chopCheese/raw/main/assests/chopCheese-logo-vector-black-txt.png",
-    alt: "chopCheese Logo",
+    altImg: "chopCheese Logo",
     deployedUrl: "https://mikevitelli.github.io/chopCheese/",
     description: `We call ourselves "The Corner Store of the Internet." Hate all the hastle of looking for good, quality memes? We do too. That's why we built this wonderful application. chopCheese is a content aggregation platform that does all the leg work of finding funny memes for you. Simply hop in the search bar and search your heart out. Scroll a bit down and copy whatever fun stuff you find to your clipboard and share with whomever your shall please. From your Grandma to your Girlfriend, everbody loves a chopCheese!`,
     stack: "SCSS, Less, CSS, JavaScript, HTML",
     repo: "https://github.com/mikevitelli/chopCheese",
   },
-  {
-    title: "chopCheese",
-    img:
-      "https://github.com/mikevitelli/chopCheese/raw/main/assests/chopCheese-logo-vector-black-txt.png",
-    alt: "chopCheese Logo",
-    deployedUrl: "https://mikevitelli.github.io/chopCheese/",
-    description: `We call ourselves "The Corner Store of the Internet." Hate all the hastle of looking for good, quality memes? We do too. That's why we built this wonderful application. chopCheese is a content aggregation platform that does all the leg work of finding funny memes for you. Simply hop in the search bar and search your heart out. Scroll a bit down and copy whatever fun stuff you find to your clipboard and share with whomever your shall please. From your Grandma to your Girlfriend, everbody loves a chopCheese!`,
-    stack: "SCSS, Less, CSS, JavaScript, HTML",
-    repo: "https://github.com/mikevitelli/chopCheese",
-  },
+
   {
     title: "rememberDat",
     img:
       "https://github.com/mikevitelli/rememberDat/raw/main/public/assets/rememberDat_logo_startpage.png",
-    alt: "rememberDat Logo",
+    altImg: "rememberDat Logo",
     deployedUrl: "https://remember-dat.herokuapp.com/",
     description: `A website that brings you back to the simpler times. RememberDat is a Nostalgia engine that generates sweet, sweet dopamine through memories and media. Users will get a “blast from the past” through music, news articles, photos/memes, games, and aesthetic UI. GIVEN that I want an Escape from these troubling times
     and want to get a blast from the past
