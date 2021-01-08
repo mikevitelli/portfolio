@@ -15,7 +15,7 @@ const ProjectTemplate = (props) => {
             </Col>
 
             <Col>
-              <h5>{title}</h5>
+              <h1>{title}</h1>
               <p>{description}</p>
             </Col>
           </Row>
