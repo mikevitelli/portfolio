@@ -10,7 +10,7 @@ const ProjectTemplate = (props) => {
       <Jumbotron className="shadow-lg rounded border-dark mt-5">
         <Container fluid>
           <Row>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+            <Col xs={12} sm={12} md={12} lg={6} xl={6}>
               <Image src={img} alt={altImg} fluid />
             </Col>
 
