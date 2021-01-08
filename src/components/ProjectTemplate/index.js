@@ -11,7 +11,7 @@ const ProjectTemplate = (props) => {
         <Container fluid>
           <Row>
             <Col xs={12} sm={12} md={12} lg={6} xl={6}>
-              <Image src={img} alt={altImg} fluid />
+              <Image src={img} alt={altImg} width={600} height={600} fluid />
             </Col>
 
             <Col>
