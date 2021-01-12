@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Avatar } from "@material-ui/core";
 import { AvatarGroup } from "@material-ui/lab";
 
-import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
 import "../../App.css";
 
 import {
@@ -14,30 +14,34 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Icons = () => {
+
+
+    root: {
+        display: 'flex',
+        '& > *': {
+          margin: theme.spacing(1),
+        },
+      },
+      small: {
+        width: theme.spacing(3),
+        height: theme.spacing(3),
+      },
+      large: {
+        width: theme.spacing(7),
+        height: theme.spacing(7),
+      }
   return (
-    <Container fluid>
-      <Row>
-        <div style={{ height: 150 }}></div>
-      </Row>
-      <Row>
-        <Col>
-          <AvatarGroup max="3">
-            <Avatar>
-              <FontAwesomeIcon icon={faInstagram} />
-            </Avatar>
-            <Avatar>
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Avatar>
-            <Avatar>
-              <FontAwesomeIcon icon={faGithub} />
-            </Avatar>
-          </AvatarGroup>
-        </Col>
-      </Row>
-      <Row>
-        <div style={{ height: 150 }}></div>
-      </Row>
-    </Container>
+    <AvatarGroup spacing="5">
+      <Avatar className={{ width: , height: "9" }}>
+        <FontAwesomeIcon icon={faInstagram} />
+      </Avatar>
+      <Avatar>
+        <FontAwesomeIcon icon={faLinkedin} />
+      </Avatar>
+      <Avatar>
+        <FontAwesomeIcon icon={faGithub} />
+      </Avatar>
+    </AvatarGroup>
   );
 };
 

@@ -3,7 +3,6 @@ import Main from "../../components/Main";
 import Projects from "../../components/Projects";
 import About from "../../components/About";
 import Contact from "../../components/Contact";
-import Icons from "../../components/Icons";
 import "../../App.css";
 
 const HomePage = () => {
@@ -13,7 +12,6 @@ const HomePage = () => {
       <Projects />
       <About />
       <Contact />
-      <Icons />
     </>
   );
 };
