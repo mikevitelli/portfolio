@@ -14,25 +14,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Icons = () => {
-
-
-    root: {
-        display: 'flex',
-        '& > *': {
-          margin: theme.spacing(1),
-        },
-      },
-      small: {
-        width: theme.spacing(3),
-        height: theme.spacing(3),
-      },
-      large: {
-        width: theme.spacing(7),
-        height: theme.spacing(7),
-      }
   return (
     <AvatarGroup spacing="5">
-      <Avatar className={{ width: , height: "9" }}>
+      <Avatar className={{ width: 5, height: 5 }}>
         <FontAwesomeIcon icon={faInstagram} />
       </Avatar>
       <Avatar>
