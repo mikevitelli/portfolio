@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Jumbotron, Form } from "react-bootstrap";
+import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 import Wrapper from "../../components/Wrapper";
 import Icons from "../Icons";
 

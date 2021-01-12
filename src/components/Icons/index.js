@@ -16,13 +16,13 @@ import {
 const Icons = () => {
   return (
     <AvatarGroup spacing="5">
-      <Avatar className={{ width: 5, height: 5 }}>
+      <Avatar className="grow">
         <FontAwesomeIcon icon={faInstagram} />
       </Avatar>
-      <Avatar>
+      <Avatar className="grow">
         <FontAwesomeIcon icon={faLinkedin} />
       </Avatar>
-      <Avatar>
+      <Avatar className="grow">
         <FontAwesomeIcon icon={faGithub} />
       </Avatar>
     </AvatarGroup>
