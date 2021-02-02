@@ -23,6 +23,13 @@ body {
   background-size: cover;
   font-family: "Montserrat", sans-serif;
 }
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 .card {
   background-color: #62766f !important;

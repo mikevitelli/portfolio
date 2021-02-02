@@ -10,10 +10,7 @@ const Main = () => {
     <Wrapper>
       <Container className="fluid justfiy-content-center">
         <Row>
-          <Col
-            className="col-12 mt-5
-d-flex justify-content-center"
-          >
+          <Col className="col-12 mt-5 d-flex justify-content-center">
             <Jumbotron className="shadow-lg rounded border-dark">
               <Image
                 src={Me}

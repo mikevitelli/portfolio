@@ -1,9 +1,9 @@
 import React from "react";
-import { Col, Image } from "react-bootstrap";
+import { Col, Row, Image } from "react-bootstrap";
 import ProjectWrapper from "../ProjectWrapper";
 
 const ProjectTemplate = (props) => {
-  const { img, altImg, title, description } = props;
+  const { img, altImg, title, description, deployedUrl, repo } = props;
 
   return (
     <ProjectWrapper>
@@ -14,6 +14,20 @@ const ProjectTemplate = (props) => {
       <Col>
         <h1>{title}</h1>
         <p>{description}</p>
+
+        <Row>
+          <Col>
+            <p>
+              <a href={deployedUrl}>Deployed</a>
+            </p>
+          </Col>
+          |
+          <Col>
+            <p>
+              <a href={repo}>Repo</a>
+            </p>
+          </Col>
+        </Row>
       </Col>
     </ProjectWrapper>
   );
