@@ -13,17 +13,29 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Icons = () => {
+const Icons = (props) => {
+  const {
+    linkedin = "https://www.linkedin.com/in/mike-vitelli",
+    instagram = "https://www.instagram.com/mikevitelli/",
+    github = "https://github.com/mikevitelli",
+  } = props;
+
   return (
     <AvatarGroup spacing="5">
       <Avatar className="grow">
-        <FontAwesomeIcon icon={faInstagram} />
+        <a href={instagram} target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
       </Avatar>
       <Avatar className="grow">
-        <FontAwesomeIcon icon={faLinkedin} />
+        <a href={linkedin} target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
       </Avatar>
       <Avatar className="grow">
-        <FontAwesomeIcon icon={faGithub} />
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </Avatar>
     </AvatarGroup>
   );
