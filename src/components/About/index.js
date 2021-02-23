@@ -3,6 +3,15 @@ import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 import Wrapper from "../../components/Wrapper";
 import Me from "../../assets/img/fb_size.jpg";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { AvatarGroup } from "@material-ui/lab";
+
+import { Avatar } from "@material-ui/core";
+
+import { faFile } from "@fortawesome/free-solid-svg-icons";
+
+import "../../App.css";
+
 const About = () => {
   return (
     <>
@@ -11,20 +20,32 @@ const About = () => {
           <Container fluid>
             <Row>
               <Col>
-                <h1>About Me</h1>
+                <h1>About</h1>
                 <br />
                 <p>
                   mike vitelli is a brooklyn-based freelance documentary
-                  photographer. his work has been featured online in vogue, i-d
-                  vice, w magazine, town and country, wwd, elle, the last
-                  magazine, among others. mike vitelli is a brooklyn-based
-                  freelance documentary photographer. his work has been featured
-                  online in vogue, i-d vice, w magazine, town and country,
-                  wwd,mike vitelli is a brooklyn-based freelance documentary
-                  photographer. his work has been featured online in vogue, i-d
-                  vice, w magazine, town and country, wwd, elle, the last
-                  magazine, among others.
+                  photographer and developer. his work has been featured online
+                  in vogue, i-d vice, w magazine, town and country, wwd, elle,
+                  the last magazine, among others. he recently earned a coding
+                  certificate from Columbia University. his aim is to blend
+                  creative visual expertise with elegant, artistic design
+                  principles to build dynamic, innovative, and immersive user
+                  experiences.
                 </p>
+
+                <h4>Resume:</h4>
+
+                <AvatarGroup style={{ justifyContent: "center" }}>
+                  <Avatar className="grow">
+                    <a
+                      href="https://docs.google.com/document/d/e/2PACX-1vRhnfA7vXOrYX_xSAqSHlI1pbs2NBkTPhH19JSMKzgrSKwY2mTYYPUEUqakQVWLbZitT8XotrRzRo2i/pub"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faFile} />
+                    </a>
+                  </Avatar>
+                </AvatarGroup>
               </Col>
               <Col xs={12} sm={12} md={12} lg={6} xl={6}>
                 <Image

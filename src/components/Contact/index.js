@@ -11,13 +11,12 @@ const Contact = () => {
           <Container fluid>
             <Row className="justify-content-md-center">
               <Col xs lg="6">
-                <h1>Contact Me</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                  magni nulla libero dignissimos architecto, odit eius debitis
-                  reiciendis recusandae quae. Debitis ex ipsa quas reprehenderit
-                  reiciendis ea iure animi corporis.
-                </p>
+                <h1>Contact</h1>
+                <br />
+
+                <h3>mike@mikevitelli.com</h3>
+
+                <br />
               </Col>
             </Row>
             <Row>
