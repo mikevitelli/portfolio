@@ -36,7 +36,7 @@ const projectData = [
     alt: "rememberDat Logo",
     deployedUrl: "https://remember-dat.herokuapp.com/",
     description: `A website that brings you back to the simpler times. RememberDat is a Nostalgia engine that generates sweet, sweet dopamine through memories and media. Users will get a “blast from the past” through music, news articles, photos/memes, games, and aesthetic UI.`,
-    role: "Project Manager & Front-End Desginer",
+    role: "Project Manager & Front-End Designer",
     stack:
       "Node.js, MVC Framework, Express, Axios, MySQL, Sequalize, Mocha, Passport, ESLint",
     repo: "https://github.com/mikevitelli/rememberDat",
@@ -47,7 +47,7 @@ const projectData = [
       "https://images.squarespace-cdn.com/content/53ce0fdae4b09085a666b7cd/1592527074762-A8DR990U4HATGT1CM0JT/film_canister-min.png?content-type=image%2Fpng",
     alt: "filmDex Image",
     deployedUrl: "https://filmdex.app/",
-    description: `A community driven interactive film database. filmDex is a modern, minimalistic index for all things 35mm film. Users can browse through our database to find their new favorite film, catalogue new films into the database, view sample photos from third-part APIs, and log data for their own film shots all within the app.`,
+    description: `A community-driven interactive film database. filmDex is a modern, minimalistic index for all things 35mm film. Users can browse through our database to find their new favorite film, catalog new films into the database, view sample photos from third-party APIs, and log data for their film shots all within the app.`,
     role: "Sole Author",
     stack:
       "ES6+, Next.js, React, Node.js, Vercel, Express, Mongo DB Atlas, Mongoose, Custom API, Server-Side Rendering, Bootstrap, Material UI, Figma, Adobe Xd, Webpack.",
