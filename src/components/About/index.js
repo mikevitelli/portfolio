@@ -36,16 +36,7 @@ const About = () => {
                 <AvatarGroup style={{ justifyContent: "center" }}>
                   <Avatar className="grow">
                     <a
-                      href="https://docs.google.com/document/d/e/2PACX-1vRhnfA7vXOrYX_xSAqSHlI1pbs2NBkTPhH19JSMKzgrSKwY2mTYYPUEUqakQVWLbZitT8XotrRzRo2i/pub"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faFile} />
-                    </a>
-                  </Avatar>
-                  <Avatar className="grow">
-                    <a
-                      href="https://docs.google.com/document/d/e/2PACX-1vRhnfA7vXOrYX_xSAqSHlI1pbs2NBkTPhH19JSMKzgrSKwY2mTYYPUEUqakQVWLbZitT8XotrRzRo2i/pub"
+                      href="https://drive.google.com/file/d/1WWXWNMpZEsekiAEEuVv0PR_L97Q3lJzQ/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
