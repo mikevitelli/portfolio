@@ -3,22 +3,29 @@ const projectData = [
     title: "allSpeak",
     img:
       "https://github.com/kylegold/all-speak/raw/main/client/src/assets/logo/png/all_speak_v2_Logo_White.png",
-    altImg: "allSpeak Logo",
+    alt: "allSpeak Logo",
     deployedUrl: "https://immense-journey-22247.herokuapp.com/",
-    description:
-      "allSpeak is a universal language chat room application. In these modern times, connecting with people from around the globe through the Internet has never been easier; however, there is still a significant language barrier involved. At allSpeak, we wanted to create a chatroom where people speaking multiple different languages can still connect and share experiances in the same conversation. Using allSpeak, any user can can enter a chatroom using only their own common tounge. Simply set you prefered language and allSpeak will automagically live translate all of your messages.",
+    description: "a universal language live chat room web application.",
+    role:
+      "Front-End Designer. I created a complete UX prototype on Figma and built it out in React.",
+
     stack:
-      "MERN, MongoDB, Express, React.js, Node.js, Google maps Javascript and Geocode APIs, Passport authentication, Bootstrap",
+      "ES6+, React, React-Router, Custom Hooks, MongoDB, Mongoose, Express, Node.js, Jest, Third-Party APIs, Passport, React-Bootstrap, Material UI, Formik, Pusher, CORS, ESLint",
     repo: "https://github.com/kylegold/all-speak",
+    file:
+      "https://drive.google.com/file/d/1EuvqecONVbROtdYNVi5C6VlM8hQD8WfJ/view?usp=sharing",
   },
   {
     title: "chopCheese",
     img:
       "https://github.com/mikevitelli/chopCheese/raw/main/assests/chopCheese-logo-vector-black-txt.png",
-    altImg: "chopCheese Logo",
+    alt: "chopCheese Logo",
     deployedUrl: "https://mikevitelli.github.io/chopCheese/",
-    description: `We call ourselves "The Corner Store of the Internet." Hate all the hastle of looking for good, quality memes? We do too. That's why we built this wonderful application. chopCheese is a content aggregation platform that does all the leg work of finding funny memes for you. Simply hop in the search bar and search your heart out. Scroll a bit down and copy whatever fun stuff you find to your clipboard and share with whomever your shall please. From your Grandma to your Girlfriend, everbody loves a chopCheese!`,
-    stack: "SCSS, Less, CSS, JavaScript, HTML",
+    description: `"The Corner Store of the Internet." Hate all the hastle of looking for good, quality memes? We did too. chopCheese is a content aggregation platform that does all the leg work of finding funny memes for you.`,
+
+    role: "Project Manager & Front-End Desginer",
+
+    stack: "JavaScript, CSS, HTML, JQuery, Ajax, Bulma",
     repo: "https://github.com/mikevitelli/chopCheese",
   },
 
@@ -26,19 +33,35 @@ const projectData = [
     title: "rememberDat",
     img:
       "https://github.com/mikevitelli/rememberDat/raw/main/public/assets/rememberDat_logo_startpage.png",
-    altImg: "rememberDat Logo",
+    alt: "rememberDat Logo",
     deployedUrl: "https://remember-dat.herokuapp.com/",
-    description: `A website that brings you back to the simpler times. RememberDat is a Nostalgia engine that generates sweet, sweet dopamine through memories and media. Users will get a “blast from the past” through music, news articles, photos/memes, games, and aesthetic UI. GIVEN that I want an Escape from these troubling times
-    and want to get a blast from the past
-    I WANT to see stuff that reminds me 90s Pop Culture
-    SO THAT I can remember how far Technology and UI has come over the last 30 years. 
-    WHEN I create my rememberDat account
-    THEN I am given a list of categories to choose from
-    WHEN I select my topic I am able to get my dopamine dose of the good ol' days.
-    THROUGH APIs and features that deliver curated 90s era content. `,
+    description: `A website that brings you back to the simpler times. RememberDat is a Nostalgia engine that generates sweet, sweet dopamine through memories and media. Users will get a “blast from the past” through music, news articles, photos/memes, games, and aesthetic UI.`,
+    role: "Project Manager & Front-End Desginer",
     stack:
-      "This Project uses Express, Travis-CI, Handlebars, Sequelize, Eslint, and Passport.",
+      "Node.js, MVC Framework, Express, Axios, MySQL, Sequalize, Mocha, Passport, ESLint",
     repo: "https://github.com/mikevitelli/rememberDat",
+  },
+  {
+    title: "filmDex",
+    img:
+      "https://images.squarespace-cdn.com/content/53ce0fdae4b09085a666b7cd/1592527074762-A8DR990U4HATGT1CM0JT/film_canister-min.png?content-type=image%2Fpng",
+    alt: "filmDex Image",
+    deployedUrl: "https://filmdex.app/",
+    description: `A community driven interactive film database. filmDex is a modern, minimalistic index for all things 35mm film. Users can browse through our database to find their new favorite film, catalogue new films into the database, view sample photos from third-part APIs, and log data for their own film shots all within the app.`,
+    role: "Sole Author",
+    stack:
+      "ES6+, Next.js, React, Node.js, Vercel, Express, Mongo DB Atlas, Mongoose, Custom API, Server-Side Rendering, Bootstrap, Material UI, Figma, Adobe Xd, Webpack.",
+    repo: "https://github.com/mikevitelli/filmdex",
+  },
+  {
+    title: "README Generator CLI",
+    img: "https://miro.medium.com/max/900/1*9W9ar6kWg8RTB3vYYwti-w.png",
+    alt: "npm logo",
+    deployedUrl: "https://www.npmjs.com/package/readme-generator-cli",
+    description: `A node.js module, accessible on the npm registry, utilizes a Command Line Interface (CLI) application designed to create professional quality README.md documents for projects hosted on Github. Utilizing inquirer and axios, this application generates a markdown file with dynamic data generated from the user's interaction through terminal actioins.`,
+    role: "Sole Author",
+    stack: "Node.js, Inquirer, Axios, npm",
+    repo: "https://www.npmjs.com/package/readme-generator-cli",
   },
 ];
 

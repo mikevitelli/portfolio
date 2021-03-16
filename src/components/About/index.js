@@ -23,11 +23,9 @@ const About = () => {
                 <h1>About</h1>
                 <br />
                 <p>
-                  mike vitelli is a brooklyn-based freelance documentary
-                  photographer and developer. his work has been featured online
-                  in vogue, i-d vice, w magazine, town and country, wwd, elle,
-                  the last magazine, among others. he recently earned a coding
-                  certificate from Columbia University. his aim is to blend
+                  Mike Vitelli is a brooklyn-based freelance documentary
+                  photographer and web developer. He recently earned a coding
+                  certificate from Columbia University. His aim is to blend
                   creative visual expertise with elegant, artistic design
                   principles to build dynamic, innovative, and immersive user
                   experiences.
@@ -36,6 +34,15 @@ const About = () => {
                 <h4>Resume:</h4>
 
                 <AvatarGroup style={{ justifyContent: "center" }}>
+                  <Avatar className="grow">
+                    <a
+                      href="https://docs.google.com/document/d/e/2PACX-1vRhnfA7vXOrYX_xSAqSHlI1pbs2NBkTPhH19JSMKzgrSKwY2mTYYPUEUqakQVWLbZitT8XotrRzRo2i/pub"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faFile} />
+                    </a>
+                  </Avatar>
                   <Avatar className="grow">
                     <a
                       href="https://docs.google.com/document/d/e/2PACX-1vRhnfA7vXOrYX_xSAqSHlI1pbs2NBkTPhH19JSMKzgrSKwY2mTYYPUEUqakQVWLbZitT8XotrRzRo2i/pub"
@@ -66,5 +73,3 @@ const About = () => {
 };
 
 export default About;
-
-// gonna have to have an image and then info about me
