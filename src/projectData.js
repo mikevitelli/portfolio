@@ -55,7 +55,7 @@ const projectData = [
   },
   {
     title: "README Generator CLI",
-    img: "https://miro.medium.com/max/900/1*9W9ar6kWg8RTB3vYYwti-w.png",
+    img: "https://icklembe.sirv.com/portfolio/demo_v1.gif",
     alt: "npm logo",
     deployedUrl: "https://www.npmjs.com/package/readme-generator-cli",
     description: `A node.js module, accessible on the npm registry, utilizes a Command Line Interface (CLI) application designed to create professional quality README.md documents for projects hosted on Github. Utilizing inquirer and axios, this application generates a markdown file with dynamic data generated from the user's interaction through terminal actioins.`,
