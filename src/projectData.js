@@ -44,7 +44,7 @@ const projectData = [
   {
     title: "filmDex",
     img:
-      "https://images.squarespace-cdn.com/content/53ce0fdae4b09085a666b7cd/1592527074762-A8DR990U4HATGT1CM0JT/film_canister-min.png?content-type=image%2Fpng",
+      "https://icklembe.sirv.com/portfolio/film_guy512.png?cy=75&cw=487&ch=347",
     alt: "filmDex Image",
     deployedUrl: "https://filmdex.app/",
     description: `A community-driven interactive film database. filmDex is a modern, minimalistic index for all things 35mm film. Users can browse through our database to find their new favorite film, catalog new films into the database, view sample photos from third-party APIs, and log data for their film shots all within the app.`,
