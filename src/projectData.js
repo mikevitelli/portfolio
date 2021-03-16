@@ -1,8 +1,7 @@
 const projectData = [
   {
     title: "allSpeak",
-    img:
-      "https://github.com/kylegold/all-speak/raw/main/client/src/assets/logo/png/all_speak_v2_Logo_White.png",
+    img: "https://icklembe.sirv.com/portfolio/all_speak.png?w=512",
     alt: "allSpeak Logo",
     deployedUrl: "https://immense-journey-22247.herokuapp.com/",
     description: "a universal language live chat room web application.",
